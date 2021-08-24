@@ -22,7 +22,7 @@ The key arrangement is as a result of a tone distance from each previous key, wh
 
 
 My designed virtual janko keyboard layout
-<img src=https://github.com/Dafirm/Janko-keyboard/blob/4ee4fd35c82ceb89480c8e3b835625104eb67420/janko%20keyboard.PNG>
+<img src=https://github.com/Dafirm/Janko-keyboard/blob/fb0a798778f3572e4711c783febb76982a3fbac4/janko%20keyboard.PNG>
 
 **Advantages of Janko keyboard**
 
