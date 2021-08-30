@@ -2,7 +2,7 @@
 
 
 *A virtual Janko Keyboard project written in HTML, CSS and JAVASCRIPT
-by Femi Oyeniyi*
+by Femi Oyeniyi* ACTAM Project 2021 
 
 Janko keyboard is special type of keyboard with a distinct layout which appears uniform in its arrangement.
 It is often referred to as uniform keyboard or a whole-tone keyboard
