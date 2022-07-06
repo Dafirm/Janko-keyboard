@@ -3,7 +3,10 @@
 }
 
 body{
-	background-color: #343434;
+  background: linear-gradient(
+        45deg, transparent,
+        rgb(128, 90, 50),
+        transparent);
 
 }
 p{
@@ -14,7 +17,7 @@ sup{
 	pointer-events: none;
 }
 h1{
-	font-size: 20px;
+	font-size:40px;
 	color: white;
  	font-style: normal;
   }
@@ -25,9 +28,9 @@ h1{
 	 padding-top: 2%;
 	 padding-bottom: 4%;
 	 margin-top: 8%;
-	 border: 3px solid #191919;
+	 border: 1px solid #fff;
     border-radius: 1em;
-    background:gray;
+    background: rgb(128, 90, 50);
 	text-align:center;
     }
 
@@ -54,7 +57,7 @@ table{
 .key {
     flex: 1;
     display: inline-flex;
-	text-align:center;
+	  text-align:center;
     align-items: center;
     margin: 1px;
 
@@ -80,7 +83,7 @@ table{
 	outline: none;
 	box-shadow: 0 5px #333;
 	transition: all 0.07s;
-	
+
     }
 
  .black.playing {
@@ -114,7 +117,7 @@ table{
 	outline: none;
 	box-shadow: 0 5px #ccc;
 	transition: all 0.07s;
-	
+
     }
 
 .white.playing {
@@ -151,7 +154,7 @@ table{
 	outline: none;
 	box-shadow: 0 5px #fbffcf;
 	transition: all 0.07s;
-	
+
     }
 
 .cream.playing {
