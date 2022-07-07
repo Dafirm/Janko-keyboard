@@ -15,7 +15,7 @@ const notes = document.querySelectorAll(".key");
   	soundHandler(makeSong)
 	 })
    })
- 
+
 
 function soundPlay(e){
  		const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
@@ -24,7 +24,7 @@ function soundPlay(e){
  		audio.currentTime = 0;
  		audio.play();
  		key.classList.add('playing');
- 		
+
  	}
 function removeTransition(e) {
 	if (e.propertyName !== 'transform') return; // skip it if it's not a transform
@@ -33,20 +33,4 @@ function removeTransition(e) {
 const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 document.addEventListener('keydown',  soundPlay);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+document.addEventListener('onClick',  soundPlay);

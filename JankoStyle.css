@@ -13,6 +13,13 @@ p{
 		font-size: 10px;
 		pointer-events: none;
 }
+h4{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  
+}
 sup{
 	pointer-events: none;
 }
